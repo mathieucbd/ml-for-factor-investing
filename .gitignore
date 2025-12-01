@@ -52,6 +52,11 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
+# Data files (large CSV files)
+data/data_ml.csv
+*.csv
+!data/F-F_Research_Data_5_Factors_2x3.csv
+
 # Model files
 *.pkl
 *.h5
