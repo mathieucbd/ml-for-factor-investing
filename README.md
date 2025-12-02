@@ -1,6 +1,6 @@
 # ML for Factor Investing
 
-Practical implementation in Python of the book *Machine Learning for Factor Investing*
+Practical implementation in Python of the book *Machine Learning for Factor Investing*, written by Guillaume Coqueret and Tony Guida.
 
 ## Project Structure
 
