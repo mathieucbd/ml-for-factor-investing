@@ -57,10 +57,6 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Data (exclude all data files but keep directory structure)
-data/*
-!data/.gitkeep
-
 # Model files
 *.pkl
 *.h5
