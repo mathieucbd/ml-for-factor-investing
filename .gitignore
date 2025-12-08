@@ -41,6 +41,11 @@ env/
 .vscode/
 *.code-workspace
 
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/output/*.csv
+
 # macOS
 .DS_Store
 .AppleDouble
