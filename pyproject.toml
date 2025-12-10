@@ -21,6 +21,9 @@ dependencies = [
     "fredapi>=0.5.2",
     "dotenv>=0.9.9",
     "xgboost>=2.1.4",
+    "tensorflow>=2.20.0",
+    "plot-keras-history>=1.1.39",
+    "keras>=3.10.0",
 ]
 
 [build-system]
