@@ -29,6 +29,7 @@ dependencies = [
     "pytensor>=2.19.0",
     "numpyro>=0.19.0",
     "bartz>=0.7.0",
+    "scikit-optimize>=0.10.2",
 ]
 
 [build-system]
@@ -37,6 +38,3 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 exclude = ["data*", "notebooks*"]
-
-[tool.uv.extra-build-dependencies]
-xbart = ["numpy"]
