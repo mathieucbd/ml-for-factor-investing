@@ -7,10 +7,21 @@ Practical implementation in Python of the book *Machine Learning for Factor Inve
 ```
 ml-for-factor-investing/
 ├── data/                          # Data directory (files not tracked)
-│   └── .gitkeep
+│   ├── raw/
+│   ├── processed/
+│   └── output/
 ├── notebooks/
 │   ├── 1_data.ipynb              # Data exploration
-│   └── 2_factors.ipynb           # Factor analysis and regressions
+│   ├── 2_factors.ipynb           # Factor analysis and regressions
+│   ├── 3_data_preprocessing.ipynb # Data cleaning and feature engineering
+│   ├── 4_penalized_regressions.ipynb # Lasso and Ridge regression models
+│   ├── 5_tree_based_methods.ipynb    # Decision trees and random forests
+│   ├── 6_neural_networks.ipynb       # Deep learning models
+│   ├── 7_support_vector_machines.ipynb # SVM models
+│   ├── 8_bayesian_methods.ipynb      # Bayesian inference approaches
+│   └── 9_validating_and_tuning.ipynb # Model validation and hyperparameter tuning
+├── models/                        # Model storage directory
+├── utils.py                       # Utility functions
 ├── .gitignore
 ├── pyproject.toml
 └── README.md
@@ -41,9 +52,9 @@ source .venv/bin/activate    # Linux/Mac
 
 3. Install dependencies:
 ```bash
-pip install pandas numpy matplotlib statsmodels jupyter
+pip install pandas numpy matplotlib scikit-learn xgboost tensorflow statsmodels jupyter scikit-optimize
 # or use uv for faster installation:
-uv pip install pandas numpy matplotlib statsmodels jupyter
+uv pip install pandas numpy matplotlib scikit-learn xgboost tensorflow statsmodels jupyter scikit-optimize
 ```
 
 ### Data
@@ -65,9 +76,16 @@ Start Jupyter:
 jupyter notebook
 ```
 
-Then open notebooks in the `notebooks/` directory:
-- `1_data.ipynb` - Explore the dataset
-- `2_factors.ipynb` - Factor analysis and Fama-MacBeth regressions
+Then open notebooks in the `notebooks/` directory in order:
+1. `1_data.ipynb` - Data exploration and loading
+2. `2_factors.ipynb` - Factor analysis and Fama-MacBeth regressions
+3. `3_data_preprocessing.ipynb` - Data cleaning and feature engineering
+4. `4_penalized_regressions.ipynb` - Lasso and Ridge regression models
+5. `5_tree_based_methods.ipynb` - Decision trees, random forests, and XGBoost
+6. `6_neural_networks.ipynb` - Deep learning models with TensorFlow/Keras
+7. `7_support_vector_machines.ipynb` - Support vector machine implementations
+8. `8_bayesian_methods.ipynb` - Bayesian inference and probabilistic methods
+9. `9_validating_and_tuning.ipynb` - Model evaluation, validation, and hyperparameter tuning with GridSearchCV and Bayesian optimization
 
 ## Notes
 
