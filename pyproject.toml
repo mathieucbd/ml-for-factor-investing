@@ -42,6 +42,7 @@ dependencies = [
     "causal-learn>=0.1.4.4",
     "causalimpact>=0.2.6",
     "pycausalimpact>=0.1.1",
+    "pca>=2.10.1",
 ]
 
 [build-system]
