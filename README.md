@@ -11,18 +11,21 @@ ml-for-factor-investing/
 │   ├── processed/                 # Processed and cleaned data
 │   └── output/                    # Model outputs and results
 ├── notebooks/
-│   ├── 01_data.ipynb             # Data exploration and loading
-│   ├── 02_factors.ipynb          # Factor analysis and Fama-MacBeth regressions
-│   ├── 3_data_preprocessing.ipynb # Data cleaning and feature engineering
-│   ├── 4_penalized_regressions.ipynb # Lasso and Ridge regression models
-│   ├── 5_tree_based_methods.ipynb    # Decision trees and random forests
-│   ├── 6_neural_networks.ipynb       # Deep learning models
-│   ├── 7_support_vector_machines.ipynb # SVM models
-│   ├── 8_bayesian_methods.ipynb      # Bayesian inference approaches
-│   ├── 9_validating_and_tuning.ipynb # Model validation and hyperparameter tuning
-│   ├── 10_ensemble_models.ipynb      # Ensemble methods and stacking
-│   ├── 11_portfolio_backtesting.ipynb # Portfolio construction and backtesting
-│   └── 12_interpretability.ipynb     # Model interpretability (LIME, SHAP, DALEX)
+│   ├── 01_data.ipynb                    # Data exploration and loading
+│   ├── 02_factors.ipynb                 # Factor analysis and Fama-MacBeth regressions
+│   ├── 03_data_preprocessing.ipynb      # Data cleaning and feature engineering
+│   ├── 04_penalized_regressions.ipynb   # Lasso, Ridge, and Elastic Net regression models
+│   ├── 05_tree_based_methods.ipynb      # Decision trees, random forests, and XGBoost
+│   ├── 06_neural_networks.ipynb         # Deep learning models with TensorFlow/Keras
+│   ├── 07_support_vector_machines.ipynb # Support vector machine implementations
+│   ├── 08_bayesian_methods.ipynb        # Bayesian inference and probabilistic methods
+│   ├── 09_validating_and_tuning.ipynb   # Model evaluation, validation, and hyperparameter tuning
+│   ├── 10_ensemble_models.ipynb         # Ensemble methods and model stacking
+│   ├── 11_portfolio_backtesting.ipynb   # Portfolio construction and backtesting strategies
+│   ├── 12_interpretability.ipynb        # Model interpretability with LIME, SHAP, and DALEX
+│   ├── 13_causality_non_stationarity.ipynb # Causality analysis and non-stationary time series
+│   ├── 14_unsupervised_learning.ipynb   # Unsupervised learning (PCA, clustering, autoencoders)
+│   └── 15_reinforcement_learning.ipynb  # Q-learning and reinforcement learning concepts
 ├── models/                        # Model storage directory
 ├── utils.py                       # Utility functions
 ├── .env                           # Environment variables (not tracked)
@@ -113,6 +116,9 @@ jupyter lab
 10. `10_ensemble_models.ipynb` - Ensemble methods and model stacking
 11. `11_portfolio_backtesting.ipynb` - Portfolio construction and backtesting strategies
 12. `12_interpretability.ipynb` - Model interpretability with LIME, SHAP, and DALEX
+13. `13_causality_non_stationarity.ipynb` - Causality analysis and non-stationary processes
+14. `14_unsupervised_learning.ipynb` - Unsupervised learning (PCA, clustering, autoencoders)
+15. `15_reinforcement_learning.ipynb` - Q-learning and reinforcement learning with exercises
 
 ## Notes
 
